@@ -157,6 +157,7 @@ body {
   animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
+  font-weight: 600;
   font-size: 1.6rem;
   color: #55c57a;
   display: inline-block;
@@ -340,8 +341,9 @@ body {
     position: relative; }
   .story__img {
     height: 100%;
-    transform: translateX(-4rem);
-    backface-visibility: hidden; }
+    transform: translateX(-4rem) scale(1.4);
+    backface-visibility: hidden;
+    transition: all 0.5s; }
   .story__text {
     transform: skewX(12deg); }
   .story__caption {
@@ -359,6 +361,11 @@ body {
   .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
+  .story:hover .story__img {
+    transform: translateX(-4rem) scale(1);
+    filter: blur(0.3rem) brightness(80%); }
+  .story__btn {
+    margin: 0 auto; }
 
 .header {
   height: 95vh;

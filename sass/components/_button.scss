@@ -66,6 +66,7 @@
 .btn-text {
   &:link,
   &:visited {
+    font-weight: 600;
     font-size: $default-font-size;
     color: $color-primary;
     display: inline-block;
