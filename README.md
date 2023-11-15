@@ -1,4 +1,9 @@
-# Natours
+<p align="center">
+  <h1 align="center">Natours</h3>
+    <p align="center">
+      <h2 align="center"><a href="https://mynatours-site.netlify.app/">Live Demo 😀😀</a></h2>
+    </p>
+</p>
 
 A web landing page for a traveling company
 
