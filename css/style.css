@@ -374,7 +374,11 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: 0.25; }
+  opacity: 0.15; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
 
 .header {
   height: 95vh;
