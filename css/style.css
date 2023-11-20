@@ -389,17 +389,18 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 4000; }
   .popup__content {
-    height: 55%;
-    width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff; }
+    height: 55%;
+    width: 75%;
+    background-color: #fff;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
 
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
